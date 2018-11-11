@@ -16,3 +16,6 @@ elif int(age) >= 21 and int(age) <75:
     print("audlt !")
 elif int(age) >= 75:
     print("old man")
+
+
+print("done!")
