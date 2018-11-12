@@ -7,5 +7,4 @@ def printTest():
 
 if __name__ == '__main__':
         printTest()
-
-print('new test')
+ 
