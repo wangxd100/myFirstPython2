@@ -11,14 +11,16 @@ class Mother:
 
 
 class Son(Father, Mother):
+    pass
     def eat(self):
         print("son can eat, too")
 
     def walk(self):
         print("son can walk, too")
 
-)
+
 child = Son()
 child.walk()
 child.eat()
+
 
