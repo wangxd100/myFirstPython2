@@ -17,5 +17,12 @@ def my_func():
     print("2nd line.")
     print("3rd line")
 
-
 my_func()
+
+
+listPosition = [1, 2, 4, 6, 8]
+# 1st position
+print(listPosition[0])
+# last position
+print(listPosition[len(listPosition)-1])
+print(listPosition[-1])
