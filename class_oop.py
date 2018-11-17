@@ -5,12 +5,20 @@ class Student():
 
     def study(self):
         print("must work smart!")
+
+    def test(self):
+        print("my name is",self.name,"and i like",self.color)
 Student().eat()
 boy = Student()
 
-Student().eat()
 boy.eat()
 boy.study()
+boy.name = "sheldon"
+boy.color = "blue"
+boy.test()
+
+
+
 
 fruit = "apple"
 print(fruit.upper())

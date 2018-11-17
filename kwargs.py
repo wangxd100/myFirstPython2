@@ -18,7 +18,6 @@ for k, v in dic_1.items():
 
 print("----- 2nd test -----")
 
-
 def someone(dic):
     for k, v in dic.items():
         print(k, "--", v)
@@ -33,6 +32,7 @@ def someone2(**kwargs):
     for k, v in kwargs.items():
         print(k, "::", v)
 
-
 someone2(name="sheldon wang", age="47", sex="man")
+
+
 
