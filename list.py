@@ -26,3 +26,11 @@ print(listPosition[0])
 # last position
 print(listPosition[len(listPosition)-1])
 print(listPosition[-1])
+
+
+myStr = "abcd"
+myStrNew = ""
+for x in myStr:
+    myStrNew += x*2
+print(myStrNew)
+print([x*2 for x in myStr])
